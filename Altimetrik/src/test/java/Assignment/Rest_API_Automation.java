@@ -1,24 +1,17 @@
 package Assignment;
 
 import static io.restassured.RestAssured.get;
-
-import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasItems;
-
 import java.util.HashMap;
 import java.util.Map;
-
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import netscape.javascript.JSObject;
-
 import static io.restassured.RestAssured.*;
 import  io.restassured.response.Response;
 import static io.restassured.matcher.RestAssuredMatchers.*;
